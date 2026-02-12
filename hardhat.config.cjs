@@ -9,7 +9,11 @@ module.exports = {
         },
         hardhat: {
             // See defaults
-            chainId: 1337
+            chainId: 1337,
+            accounts: {
+                count: 30,
+                accountsBalance: "100000000000000000000"
+            }
         }
     },
     solidity: "0.8.27",
